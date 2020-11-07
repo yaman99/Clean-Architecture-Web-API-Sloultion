@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Adsbility.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Adsbility.Api.Controllers.V1.AuthController.SignIn(Adsbility.Appilication.Common.Models.LoginVM)">
+             <remarks>
+             Sample request:
+            
+                 POST /sign-in with Agent Role
+                 {
+                    "email": "rakolee1999sawan@gmail.com",
+                    "password": "asd.A123"
+                 }
+                 POST /sign-in with Admin Role
+                 {
+                    "email": "administrator@localhost",
+                    "password": "asd.A123"
+                 }
+                 POST /sign-in with Company Role
+                 {
+                    "email": "company@company.com",
+                    "password": "asd.A123"
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>
